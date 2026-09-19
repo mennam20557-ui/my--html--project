@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Profile</title>
+</head>
+
+<body>
+
+     <h1>Menna Mohammed</h1>
+     <img src="images (1).jpg" alt="Menna Mohammed"
+
+
+     <h2>About Me</h2>
+     <p>
+        Hello. my name is Menna mohammed. I am an information systems student.
+        I am interested in technology and web development.
+        I enjoy learning new things and improving my skills.
+     </p>
+     
+     <h2>My skills</h2>
+     <h3>Tachnical skills</h3>
+
+     <ul>
+         <li>HTML</li>
+         <li>SQL<li>
+         <li>Database</li>
+         <li>Excel</li>
+     </ul>
+
+     <ol>
+         <li>Learn Web Development</li>
+         <li>Improve my programming Skills</li>
+         <li>Build Useful projects</li>
+     </ol>
+
+     <h2> My Favorite Website</h2>
+       <p> YouTube</p>
+
+       <h2>My Interests</h2>
+       <p>
+        I like <b>Web Developement</b>
+       </p>
+
+       <h2>My Favorite Quote</h2>
+       
+       <p>I never lose Either I win or learn</p>
+
+       <h2>Contact Me</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <p>
+                <label for="name">Name:</label>
+
+                <!-- New attribute: required makes the field mandatory -->
+                <input type="text" id="name" name="name" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+
+                <!-- New attribute: placeholder displays a hint inside the input -->
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </p>
+
+            <p>
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message"></textarea>
+            </p>
+
+            <input type="submit" value="Send">
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
