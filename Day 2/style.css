@@ -9,6 +9,9 @@
     --shadow-color: rgba(0, 0, 0, 0.15);
 }
 
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -80,10 +83,14 @@ header {
 }
 
 
+
+
 .profile-info > h2 {
     margin-top: 0.5em;
     font-size: 1.2rem;
 }
+
+
 
 .about-section h2,
 .skills-section h2 {
@@ -182,18 +189,27 @@ h2 {
     padding: 2rem;
     text-align: center;
     background-color: var(--primary-color);
-    background-image: url("./image/134160145767927618.jpg");
+    background-image: url("images/images.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
     color: var(--white-color);
     
+
+
 }
+
+
+
+
 
 .profile-footer p {
     color: white !important;
 }
+
+
+
 
 @media (max-width: 600px) {
 

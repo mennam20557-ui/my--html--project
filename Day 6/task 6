@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Profile Page">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <header class="profile-header">
+        <div class="profile-card">
+
+            
+            <img src="images (1).jpg" alt="Profile picture" class="profile-image">
+
+            <div class="profile-info">
+                <h1 id="profile-name">Menna Mohamed</h1>
+                <h2>Web Developer</h2>
+
+                <p>
+                    Creative Web Developer interested in building modern
+                    and user-friendly websites.
+                </p>
+
+                <a href="#contact" class="contact-button">Contact Me</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+       
+        <section class="about-section">
+            <h2>About Me</h2>
+
+            <p>
+               I am a student information system and i interested in Web Development and Information Systems. I enjoy learning HTML and CSS and creating simple, organized, and attractive websites
+            </p>
+        </section>
+
+        
+        <section class="skills-section">
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">SQL</span>
+                <span class="skill">UI/UX</span>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <h2>More About Me</h2>
+
+            <div class="content-box">
+                I am continuously developing my technical skills and learning
+                new technologies. My goal is to create professional websites
+                with clean structure, simple design, good user experience,
+                responsive layouts, and organized code.
+            </div>
+        </section>
+
+    </main>
+
+        
+    <footer id="contact" class="profile-footer">
+        <p>&copy;  Menna Mohamed.</p>
+    </footer>
+</body>
+</html>
